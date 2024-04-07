@@ -5,7 +5,7 @@ const dotenv = require('dotenv').config()
 
 const twilio = require('twilio')
 const accountSid = "ACefd751ba661d37a9e2ee8042d8e5aaf3";
-const authToken = "d8eb20e08131951c21cb6090be6ff164";
+const authToken = "b30b430633fc0e46a4ece2a76a910252";
 const twilioClient = new twilio.Twilio(accountSid, authToken);
 
 const ejsMate = require("ejs-mate");
